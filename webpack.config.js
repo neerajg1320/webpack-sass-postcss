@@ -1,8 +1,20 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  mode: 'development',
-  plugins: [new MiniCssExtractPlugin()],
+
+  mode: 'production',
+  plugins: [
+    new MiniCssExtractPlugin(),
+    new HtmlWebpackPlugin({
+      hash: true,
+      title: 'Webpack Demo App',
+      header: 'Webpack Again Title',
+      template: './src/index.html',
+      filename: 'index.html',
+      inject: 'body'
+    })    
+  ],
   module: {
     rules: [
       {

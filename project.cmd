@@ -18,3 +18,6 @@ npm i -D postcss postcss-loader postcss-preset-env
 
 # Add the tailwind support by adding the includes in style.scss
 npm i -D tailwindcss
+
+# Use the html-webpack-plugin so that index.html can be generated from template
+npm i -D html-webpack-plugin
