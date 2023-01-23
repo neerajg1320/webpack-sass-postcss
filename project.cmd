@@ -11,3 +11,10 @@ npm i -D sass sass-loader
 
 # To extract css into a file, replace style loader with MiniCssExtractPlugin.loader
 npm i -D mini-css-extract-plugin
+
+# Support Postcss
+npm i -D postcss postcss-loader postcss-preset-env
+# Create postcss.config.js file
+
+# Add the tailwind support by adding the includes in style.scss
+npm i -D tailwindcss
