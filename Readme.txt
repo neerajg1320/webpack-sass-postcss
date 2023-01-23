@@ -1,3 +1,5 @@
+# https://www.youtube.com/watch?v=SH6Y_MQzFVw
+
 Note: This app uses the dist/index.html created manually
 We need to change this to template based html.
 We need to use HTML plugin for the same.

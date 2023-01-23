@@ -1,3 +1,5 @@
+# https://www.youtube.com/watch?v=SH6Y_MQzFVw
+
 npm i -D webpack webpack-cli
 
 npx webpack
